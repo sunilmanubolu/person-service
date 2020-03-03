@@ -1,5 +1,8 @@
 # person-service
 
+Purpose:
+The purpose of this application is to create an API which supports the employee operations in a particular organization. Like adding new Employee, Updating existing employee, deleting the employee, adding multiple employees in bulk.
+
 1) Added an end point in the PersonController - /person/{pageNo} for the Pagination when we are fetching the number of persons. 
    This covers functionality one.
 2) Added an end point in the PersonController - /persons for saving the list of persons in the Database.
